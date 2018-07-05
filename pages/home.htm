@@ -1,0 +1,29 @@
+<div class="row">
+    <div class="col-md-4">
+        <h4>Search for jokes</h4>
+        <div class="form-group">
+            <input type="text" class="form-control" ng-model="searchTerm" placeholder="Please enter a joke term">
+
+        </div>
+
+    </div>
+
+
+</div>
+<div class="row">
+    <div class="col-md-2">
+        <a href="#!/jokes" class="btn btn-primary">Get Jokes</a>
+    </div>
+    <div class="col-md-2">
+
+          <div class="form-group">
+            <label for="limit">Limit of Jokes</label>
+              <select name="limit" id="limit" ng-model="limit" class="form-control form-control-sm">
+            <option value="2">2</option>
+            <option value="5">5</option>
+            <option value="7">7</option>
+           </select>
+          </div>
+
+    </div>
+</div>
